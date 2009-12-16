@@ -15,6 +15,7 @@ Requires(post): php-pear
 Requires(preun): php-pear
 Requires:	php-pear
 Requires:	php-pear-Date_Holidays >= 0.21.1
+BuildRequires:	php-pear
 BuildArch:	noarch
 BuildRoot:	%{_tmppath}/%{name}-%{version}
 
