@@ -5,12 +5,13 @@
 
 Name:		php-pear-%{upstream_name}
 Version:	0.1.2
-Release:	%mkrel 5
+Release:	%mkrel 6
 Summary:	Driver based class to calculate holidays in %{_region}
 License:	PHP License
 Group:		Development/PHP
 URL:		http://pear.php.net/package/%{upstream_name}/
 Source0:	http://download.pear.php.net/package/%{upstream_name}-%{version}.tar.bz2
+Patch0:		php-pear-Date_Holidays_Norway-0.1.2-borkfix.diff
 Requires(post): php-pear
 Requires(preun): php-pear
 Requires:	php-pear
@@ -24,6 +25,7 @@ BuildRoot:	%{_tmppath}/%{name}-%{version}
 
 %prep
 %setup -q -c
+%patch0 -p0
 mv package.xml %{upstream_name}-%{version}/%{upstream_name}.xml
 
 %install
