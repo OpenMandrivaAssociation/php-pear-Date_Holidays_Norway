@@ -1,0 +1,11 @@
+--- Date_Holidays_Norway-0.1.2/Holidays/Driver/Norway.php	2009-03-17 00:49:22.000000000 +0000
++++ Date_Holidays_Norway-0.1.2/Holidays/Driver/Norway.php.oden	2011-12-14 15:08:37.000000000 +0000
+@@ -24,7 +24,7 @@
+  */
+ 
+ 
+-require_once 'Christian.php';
++require_once 'Date/Holidays/Driver/Christian.php';
+ 
+ /**
+  * Driver class that calculates Norwegian holidays
