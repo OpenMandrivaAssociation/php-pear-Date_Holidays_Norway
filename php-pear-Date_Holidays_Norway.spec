@@ -5,7 +5,7 @@
 
 Name:		php-pear-%{upstream_name}
 Version:	0.1.2
-Release:	9
+Release:	10
 Summary:	Driver based class to calculate holidays in %{_region}
 License:	PHP License
 Group:		Development/PHP
