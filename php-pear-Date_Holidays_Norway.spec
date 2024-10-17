@@ -9,7 +9,7 @@ Release:	10
 Summary:	Driver based class to calculate holidays in %{_region}
 License:	PHP License
 Group:		Development/PHP
-URL:		http://pear.php.net/package/%{upstream_name}/
+URL:		https://pear.php.net/package/%{upstream_name}/
 Source0:	http://download.pear.php.net/package/%{upstream_name}-%{version}.tar.bz2
 Patch0:		php-pear-Date_Holidays_Norway-0.1.2-borkfix.diff
 Requires(post): php-pear
